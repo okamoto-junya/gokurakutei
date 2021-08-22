@@ -1,0 +1,17 @@
+.top-background {
+  background-image: url(/image/street-409993_1920.png);
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 296px;
+  padding-top: 101px;
+}
+
+@media (max-width: 768px) {
+  .top-background {
+    background-image: url(/image/street-409993_1920@2x.png);
+    background-position: center;
+    background-size: cover;
+  }
+}
+/*# sourceMappingURL=top-background.css.map */

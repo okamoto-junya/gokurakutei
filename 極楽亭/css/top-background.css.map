@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACd,gBAAgB,EAAE,kCAAkC;EACpD,mBAAmB,EAAE,aAAa;EAClC,eAAe,EAAE,OAAO;EACxB,iBAAiB,EAAE,SAAS;EAC5B,MAAM,EAAE,KAAK;EACb,WAAW,EAAE,KAAK;CAOnB;;AALC,MAAM,EAAE,SAAS,EAAE,KAAK;EAR1B,AAAA,eAAe,CAAC;IASZ,gBAAgB,EAAE,qCAAqC;IACvD,mBAAmB,EAAE,MAAM;IAC3B,eAAe,EAAE,KAAK;GAEzB",
+    "sources": [
+        "../scss/object/top-background.scss"
+    ],
+    "names": [],
+    "file": "top-background.css"
+}

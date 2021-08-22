@@ -1,0 +1,224 @@
+.single {
+  padding: 105px 60px 165px;
+  color: white;
+  background-color: black;
+  display: flex;
+  @media (max-width: 768px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .breadcrumb {
+    position: absolute;
+    font-size: 20px;
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+
+    .breadcrumb-list {
+      display: flex;
+      position: relative;
+      bottom: 85px;
+      @media (max-width: 768px) {
+      }
+    }
+
+    .breadcrumb-item {
+      span {
+        margin-right: 10px;
+      }
+      a {
+        color: white;
+        text-decoration: underline;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .single-section {
+    width: 100%;
+    .inner {
+      .single-title {
+      }
+
+      .category {
+        font-size: 14px;
+        width: 120px;
+        height: 30px;
+        background-color: #4d0000;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 45px;
+      }
+
+      .main {
+        font-size: 36px;
+        margin-bottom: 50px;
+        @media (max-width: 768px) {
+          font-size: 30px;
+        }
+      }
+    }
+
+    .entry {
+      display: flex;
+      @media (max-width: 768px) {
+        display: block;
+      }
+    }
+
+    .single-entry {
+      margin-right: 60px;
+      @media (max-width: 768px) {
+        margin-right: 0px;
+      }
+      .wrapper {
+      }
+
+      .info {
+        display: flex;
+      }
+
+      .sns {
+        width: 120px;
+        height: 40px;
+        background-color: #00aced;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        border-radius: 3px;
+        letter-spacing: 2px;
+        a {
+          font-size: 20px;
+          color: white;
+        }
+        i {
+          margin-right: 10px;
+        }
+      }
+
+      .time {
+        font-size: 24px;
+        position: relative;
+        top: 10px;
+        margin-left: 510px;
+        @media (max-width: 768px) {
+          margin-left: 200px;
+          font-size: 16px;
+          position: relative;
+          top: 20px;
+        }
+      }
+
+      .body {
+        .image {
+          img {
+          }
+        }
+        .text {
+          margin-top: 40px;
+          margin-bottom: 40px;
+          background-color: #030f55;
+          h2 {
+            font-size: 36px;
+            margin-left: 20px;
+            @media (max-width: 768px) {
+              font-size: 28px;
+            }
+          }
+        }
+        p {
+          font-size: 24px;
+          @media (max-width: 768px) {
+            font-size: 18px;
+          }
+        }
+
+        h3 {
+          font-size: 26px;
+          margin-left: 20px;
+          margin-top: 40px;
+          margin-bottom: 35px;
+        }
+
+        img {
+        }
+      }
+    }
+  }
+
+  .single-widget {
+    .widget-relative {
+      .title-w {
+        background-color: #030f55;
+        margin-bottom: 30px;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (max-width: 768px) {
+          margin-top: 50px;
+        }
+        h3 {
+          font-size: 21px;
+        }
+      }
+
+      .list {
+      }
+
+      .item {
+        margin-bottom: 40px;
+        a {
+          display: inline-block;
+          display: flex;
+        }
+
+        .image {
+          img {
+            width: 100px;
+            height: 70px;
+            @media (max-width: 768px) {
+              width: 150px;
+              height: 100px;
+            }
+          }
+        }
+
+        .title {
+          color: white;
+          font-size: 12px;
+          text-decoration: underline;
+          line-height: 2;
+          margin-left: 17px;
+          width: 152px;
+          @media (max-width: 768px) {
+            width: 300px;
+          }
+        }
+      }
+    }
+    .widget-relative {
+      .title {
+      }
+
+      .list {
+      }
+
+      .item {
+        a {
+        }
+
+        .image {
+          img {
+          }
+        }
+        .title {
+        }
+      }
+    }
+  }
+}
